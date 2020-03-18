@@ -10,7 +10,7 @@ namespace WeatherWebClient
         {
             /*OpenWeatherMapAPI();
             AccuWeatherAPI();*/
-
+            WeatherbitAPI();
             Console.ReadKey();
         }
 
@@ -54,6 +54,14 @@ namespace WeatherWebClient
             {
                 Console.WriteLine($"{forecast.getDateTime().ToString()} Minimum: {forecast.getMinimum()} Maximum: {forecast.getMaximum()}");
             }
+
+        }
+
+        private static void WeatherbitAPI()
+        {
+            string cityName = "Valletta";
+            /*** WeatherBit ***/
+            /*** current weather ***/
 
         }
     }
