@@ -8,8 +8,9 @@ namespace WeatherWebClient
     {
         static void Main(string[] args)
         {
-            OpenWeatherMapAPI();
-            AccuWeatherAPI();
+            /*OpenWeatherMapAPI();
+            AccuWeatherAPI();*/
+
             Console.ReadKey();
         }
 
