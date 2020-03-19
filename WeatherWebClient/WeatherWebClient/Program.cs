@@ -73,6 +73,8 @@ namespace WeatherWebClient
             /*** WeatherBit ***/
             /*** current weather ***/
             WeatherBitController weatherBitController = new WeatherBitController();
+            AccuWeatherController accuWeatherControllerLocation = new AccuWeatherController();
+            
             Console.WriteLine("_____ WeatherBit _____");
             Console.WriteLine("-_-_ Current Weather API _-_-");
             Console.WriteLine($"Current Temperature for {cityName}: {weatherBitController.getCurrentWeather(cityName)}");
